@@ -1,3 +1,14 @@
+//About Me
+
+var typed = new Typed('#typed',{
+    strings:["Creative.", "Developer.", "Programmer.", "Great Team Member!", "Collaborator.", "Coder."],
+    backSpeed: 40,
+    typeSpeed: 40,
+    loop: true
+  });
+
+//Coding Fact
+
 const timeContainer = document.getElementById("time-container");
 const BIRTH_DAY = "04-05-1996";
 const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
